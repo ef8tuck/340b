@@ -2081,3 +2081,17 @@ TBLPROPERTIES (
   'delta.minWriterVersion' = '7',
   'spark.sql.files.ignoreMissingFiles'=true);
 
+
+-- COMMAND ----------
+
+create table psas_di_dev.`340b_brnz`.T_CHAIN_LOOOKUP(
+  CHAIN_ID STRING,
+  CHAIN_NAM STRING
+)
+
+-- COMMAND ----------
+
+create table psas_di_dev.`340b_brnz`.T_NATL_GRP_LOOOKUP(
+  NATL_GRP_ID STRING,
+  NATL_GRP_NAM STRING
+)
