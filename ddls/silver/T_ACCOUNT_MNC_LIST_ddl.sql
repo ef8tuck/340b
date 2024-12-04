@@ -23,3 +23,6 @@ TBLPROPERTIES (
   'spark.sql.files.ignoreMissingFiles'=true
 );
 
+
+
+
